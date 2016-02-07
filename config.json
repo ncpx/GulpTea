@@ -1,0 +1,38 @@
+{
+	"name":"avroratheme",
+	"desc":"by NewClearPixel",
+	"type":"theme",
+	"version":"0.1",
+	"license":"LGPL",
+	"debug":"./dest/debug",
+	"release":"./dest/release",
+	"js":"static/js",
+	"tag":"static/js/tag",
+	"css":"static/css",
+	"coffee":"./source/coffee/**/*.coffee",
+	"styl":"./source/stylus/*.styl",
+	"jade":"./source/jade/**/*.jade",
+	"jade-incl":"./source/jade-incl/**/*.jade",
+	"support_cms":{
+		"drupal":true,
+		"joomla":false
+	},
+	"php":[
+		"./source/php/**/*.php",
+		"./source/php/**/*.inc",
+		"./source/php/**/*.module",
+		"./source/php/**/*.install"
+	],
+	"riot":"./source/riot/*.tag",
+	"riot_all":"_tags.js",
+	"copy":"./source/copy/**/*",
+	"use_banner":true,
+	"banner":[
+		"<<MODNAME>> <<MODESC>> <<MODLIC>>",
+		"@version: v<<MODVERS>>",
+		"@author: Kuzmin Pavel aka S0ulWiSH",
+		"@date: <<DATE_TIME>>",
+		"@link: http://ncpx.ru"
+	],
+	"default_task":["jade", "php", "js", "riot", "css", "copy"]
+}

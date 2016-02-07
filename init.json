@@ -1,0 +1,22 @@
+{
+	"folders":[
+		".tmp",
+		"dump",
+		{"name":"source", "folders":[
+			"php",
+			"jade",
+			"jade-incl",
+			"coffee",
+			"stylus",
+			"riot"
+			"copy"
+		]},
+		{"name":"dest", "folders":[
+			"debug",
+			"release",
+			"vagrant",
+			"deploy"
+		]}
+	],
+	"files":[]
+}
